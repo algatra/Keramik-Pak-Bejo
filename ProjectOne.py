@@ -1,6 +1,7 @@
 class  Keramik():
 
 	def __init__(self):
+		## Kategori:[ukuran,isi,harga]
 		self.kategori = {"A":[30*30,10,54000],"B":[40*40,5,65000],"C":[30*40,8,60000]}
 
 	def hitung(self,kategori):
