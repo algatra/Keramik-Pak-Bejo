@@ -15,12 +15,12 @@ public class Keramik {
     
     int hitungBox(){
         int box = this.hitungJumlah()/this.isi;
-        return box;
+        return box+1; // ditambah 1 karena untunk menutupi kekurangan keramik 
         }
     
     void hitungHarga(){
         int box = this.hitungBox();
-        int total = box * this.harga;
+        double total = this.hitungBox() * this.harga;
         System.out.println("Membutuhkan Keramik "+this.kategori+" Sebanyak "+box+" Box Dengan Harga Total Rp"+total);
         }
 }
