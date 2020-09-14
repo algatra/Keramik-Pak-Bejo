@@ -20,7 +20,7 @@ public class Keramik {
     
     void hitungHarga(){
         int box = this.hitungBox();
-        double total = this.hitungBox() * this.harga;
+        int total = this.hitungBox() * this.harga;
         System.out.println("Membutuhkan Keramik "+this.kategori+" Sebanyak "+box+" Box Dengan Harga Total Rp"+total);
         }
 }
